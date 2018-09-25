@@ -1,0 +1,2089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd935803-70d5-47b6-a5cb-870acd745b35" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lambdaworks_scrypt_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_madgag_spongycastle_core_1_58_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ethereum_leveldbjni_all_1_18_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_7_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoin/NativeSecp256k1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoin/NativeSecp256k1Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoin/Secp256k1Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoin/crawler/PeerSeedProtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoin/paymentchannel/Protos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoin/protocols/payments/Protos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/AbstractBlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/AddressFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/AddressMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/AlertMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Base58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Bech32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/BitcoinSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/BlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/BlockLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/BloomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/CheckpointManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/ChildMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/DummySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/DumpedPrivateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/ECKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/EmptyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/FilteredBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/FullPrunedBlockChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/GetAddrMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/GetBlocksMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/GetDataMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/GetHeadersMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/GetUTXOsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/HeadersMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/InsufficientMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/InventoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/InventoryMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/LegacyAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/ListMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/MemoryPoolMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/MessageSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Monetary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/NetworkParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/NotFoundMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PartialMerkleTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Peer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PeerAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PeerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PeerFilterProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PeerGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PeerSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Ping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Pong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PrefixedChecksummedBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/ProtocolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/PrunedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/RejectMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/RejectedTransactionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/SegwitAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/SendHeadersMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Sha256Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/StoredBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/StoredUndoableBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionBroadcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionBroadcaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionConfidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionOutPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionOutputChanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TransactionWitness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/TxConfidenceTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/UTXO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/UTXOProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/UTXOProviderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/UTXOsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/UnknownMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/UnsafeByteArrayOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/VarInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/VerificationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/VersionAck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/VersionMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractBlockChainListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractPeerConnectionEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractPeerDataEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractPeerEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/BlockChainListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/BlocksDownloadedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/ChainDownloadStartedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/DownloadProgressTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/GetDataEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/NewBestBlockListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/OnTransactionBroadcastListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/PeerConnectedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/PeerConnectionEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/PeerDataEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/PeerDisconnectedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/PeerDiscoveredEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/PreMessageReceivedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/ReorganizeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/TransactionConfidenceEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/TransactionReceivedInBlockListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/BIP38PrivateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/ChildNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/DRMWorkaround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/DeterministicHierarchy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/DeterministicKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/EncryptableItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/EncryptedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/HDDerivationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/HDKeyDerivation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/HDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/KeyCrypter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/KeyCrypterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/KeyCrypterScrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/LazyECPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/LinuxSecureRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/MnemonicCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/MnemonicException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/PBKDF2SHA512.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/TransactionSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/TrustStoreLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/X509Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/crypto/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeBlockChainListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeFutureCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeKeyChainEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativePaymentChannelHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativePaymentChannelServerConnectionEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativePeerEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeScriptsChangeEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeTransactionConfidenceEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeTransactionConfidenceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeWalletChangeEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeWalletCoinsReceivedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeWalletCoinsSentEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeWalletReorganizeEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/kits/WalletAppKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/kits/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/AbstractTimeoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/BlockingClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/BlockingClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/ClientConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/ConnectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/FilterMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/MessageWriteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/NioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/NioClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/ProtobufConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/StreamConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/StreamConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/DnsDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/HttpDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/MultiplexingDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/PeerDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/PeerDiscoveryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/SeedPeers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/discovery/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/net/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/AbstractBitcoinNetParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/MainNetParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/Networks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/RegTestParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/TestNet3Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/UnitTestParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/ClientState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/IPaymentChannelClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelClientConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelClientState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelCloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelServerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelV1ClientState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelV1ServerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelV2ClientState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentChannelV2ServerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/PaymentIncrementAck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/ServerConnectionEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/ServerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/Simple channels protocol.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/StateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/StoredPaymentChannelClientStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/StoredPaymentChannelServerStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/StoredServerChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/ValueOutOfRangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/channels/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/payments/PaymentProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/payments/PaymentProtocolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/payments/PaymentSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/protocols/payments/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/Script.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/ScriptBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/ScriptChunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/ScriptError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/ScriptException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/ScriptOpCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/ScriptPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/script/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/signers/CustomTransactionSigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/signers/LocalTransactionSigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/signers/MissingSigResolutionSigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/signers/TransactionSigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/signers/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/BlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/BlockStoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/ChainFileLockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/DatabaseFullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/FullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/H2FullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/LevelDBBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/LevelDBFullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/MemoryBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/MemoryFullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/MySQLFullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/PostgresFullPrunedBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/SPVBlockStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/store/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/uri/BitcoinURI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/uri/BitcoinURIParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/uri/OptionalFieldValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/uri/RequiredFieldValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/uri/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/BaseTaggableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/BlockFileLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/BriefLogFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/BtcAutoFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/BtcFixedFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/BtcFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/ContextPropagatingThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/DaemonThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/ExchangeRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/ExponentialBackoff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/Fiat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/ListenerRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/MonetaryFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/TaggableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/Threading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/VersionTally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/utils/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/AllRandomKeysRotating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/AllowUnconfirmedCoinSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/BasicKeyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/CoinSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/CoinSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DecryptingKeyBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DefaultCoinSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DefaultKeyChainFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DefaultRiskAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DeterministicKeyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DeterministicSeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DeterministicUpgradeRequiredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/DeterministicUpgradeRequiresPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/EncryptableKeyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/FilteringCoinSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/KeyBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/KeyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/KeyChainFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/KeyChainGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/KeyTimeCoinSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/MarriedKeyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/Protos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/RedeemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/RiskAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/SendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/UnreadableWalletException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/WalletExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/WalletFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/WalletProtobufSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/WalletTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/AbstractKeyChainEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/KeyChainEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/ScriptsChangeEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/WalletChangeEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/WalletCoinsReceivedEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/WalletCoinsSentEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/listeners/WalletReorganizeEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/IPCcoinj/wallet/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/paymentchannel.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/paymentrequest.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/peerseeds.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/storedclientpaymentchannel.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/storedserverpaymentchannel.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/wallet.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.bitcoin.production.checkpoints.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.bitcoin.test.checkpoints.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/zencoinj/crypto/cacerts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/zencoinj/crypto/mnemonic/wordlist/english.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/aaacoinj-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org.bitcoin.production.checkpoints.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org.bitcoin.test.checkpoints.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/NativeSecp256k1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/NativeSecp256k1Util$AssertFailException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/NativeSecp256k1Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/Secp256k1Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeedData$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeedData$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeedData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeedDataOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeeds$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeeds$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeeds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$PeerSeedsOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$SignedPeerSeeds$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$SignedPeerSeeds$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$SignedPeerSeeds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos$SignedPeerSeedsOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/crawler/PeerSeedProtos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ClientVersion$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ClientVersion$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ClientVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ClientVersionOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Error$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Error$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Error$ErrorCode$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Error$ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Error.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ErrorOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Initiate$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Initiate$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Initiate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$InitiateOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$PaymentAck$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$PaymentAck$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$PaymentAck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$PaymentAckOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideContract$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideContract$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideContractOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideRefund$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideRefund$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideRefund.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ProvideRefundOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ReturnRefund$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ReturnRefund$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ReturnRefund.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ReturnRefundOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ServerVersion$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ServerVersion$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ServerVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$ServerVersionOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Settlement$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Settlement$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$Settlement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$SettlementOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$TwoWayChannelMessage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$TwoWayChannelMessage$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$TwoWayChannelMessage$MessageType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$TwoWayChannelMessage$MessageType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$TwoWayChannelMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$TwoWayChannelMessageOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$UpdatePayment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$UpdatePayment$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$UpdatePayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos$UpdatePaymentOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/paymentchannel/Protos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$Output$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$Output$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$Output.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$OutputOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$Payment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$Payment$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentACK$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentACK$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentACK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentACKOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentDetails$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentDetails$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentDetailsOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentRequest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentRequest$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$PaymentRequestOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$X509Certificates$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$X509Certificates$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$X509Certificates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos$X509CertificatesOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoin/protocols/payments/Protos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain$NewBlockType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain$OrphanBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AbstractBlockChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressFormatException$InvalidCharacter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressFormatException$InvalidChecksum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressFormatException$InvalidDataLength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressFormatException$InvalidPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressFormatException$WrongNetwork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressFormatException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AddressMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/AlertMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Base58.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Bech32$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Bech32$Bech32Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Bech32.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/BitcoinSerializer$BitcoinPacketHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/BitcoinSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Block$VerifyFlag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Block.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/BlockChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/BlockLocator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/BloomFilter$BloomUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/BloomFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/CheckpointManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ChildMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Coin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/DummySerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/DumpedPrivateKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ECKey$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ECKey$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ECKey$ECDSASignature.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ECKey$KeyIsEncryptedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ECKey$MissingPrivateKeyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ECKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/EmptyMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/FilteredBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/FullPrunedBlockChain$Verifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/FullPrunedBlockChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/GetAddrMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/GetBlocksMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/GetDataMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/GetHeadersMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/GetUTXOsMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/HeadersMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/InsufficientMoneyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/InventoryItem$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/InventoryItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/InventoryMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/LegacyAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ListMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/MemoryPoolMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/MessageSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Monetary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/NetworkParameters$ProtocolVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/NetworkParameters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/NotFoundMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PartialMerkleTree$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PartialMerkleTree$ValuesUsed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PartialMerkleTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$8$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$GetDataRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer$PendingPing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Peer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerFilterProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$ChainDownloadSpeedCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$FilterRecalculateMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$LocalhostCheckState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$PeerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup$PeerStartupListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PeerSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Ping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Pong.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PrefixedChecksummedBytes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/ProtocolException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/PrunedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/RejectMessage$RejectCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/RejectMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/RejectedTransactionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/SegwitAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/SendHeadersMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Sha256Hash.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/StoredBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/StoredUndoableBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Transaction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Transaction$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Transaction$Purpose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Transaction$SigHash.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast$ConfidenceChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast$EnoughAvailablePeers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast$ProgressCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionBroadcaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$ConfidenceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$Listener$ChangeReason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence$Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionConfidence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionInput$ConnectMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionInput$ConnectionResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionOutPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionOutputChanges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TransactionWitness.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TxConfidenceTable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TxConfidenceTable$WeakConfidenceReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/TxConfidenceTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/UTXO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/UTXOProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/UTXOProviderException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/UTXOsMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/UnknownMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/UnsafeByteArrayOutputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Utils$Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VarInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$BlockVersionOutOfDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$CoinbaseHeightMismatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$CoinbaseScriptSizeOutOfRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$DuplicatedOutPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$EmptyInputsOrOutputs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$ExcessiveValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$LargerThanMaxBlockSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$NegativeValueOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException$UnexpectedCoinbaseInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VerificationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VersionAck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/VersionMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/AbstractBlockChainListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/AbstractPeerConnectionEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/AbstractPeerDataEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/AbstractPeerEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/BlockChainListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/BlocksDownloadedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/ChainDownloadStartedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/DownloadProgressTracker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/GetDataEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/NewBestBlockListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/OnTransactionBroadcastListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/PeerConnectedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/PeerConnectionEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/PeerDataEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/PeerDisconnectedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/PeerDiscoveredEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/PreMessageReceivedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/ReorganizeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/TransactionConfidenceEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/core/listeners/TransactionReceivedInBlockListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/BIP38PrivateKey$BadPassphraseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/BIP38PrivateKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/ChildNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/DRMWorkaround.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/DeterministicHierarchy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/DeterministicKey$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/DeterministicKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/EncryptableItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/EncryptedData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/HDDerivationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/HDKeyDerivation$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/HDKeyDerivation$PublicDeriveMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/HDKeyDerivation$RawKeyBytes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/HDKeyDerivation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/HDUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/KeyCrypter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/KeyCrypterException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/KeyCrypterScrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/LazyECPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/LinuxSecureRandom$LinuxSecureRandomProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/LinuxSecureRandom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/MnemonicCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/MnemonicException$MnemonicChecksumException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/MnemonicException$MnemonicLengthException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/MnemonicException$MnemonicWordException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/MnemonicException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/PBKDF2SHA512.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/TransactionSignature.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/TrustStoreLoader$DefaultTrustStoreLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/TrustStoreLoader$FileTrustStoreLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/TrustStoreLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/crypto/X509Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeBlockChainListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeFutureCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeKeyChainEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativePaymentChannelHandlerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativePaymentChannelServerConnectionEventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativePeerEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeScriptsChangeEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeTransactionConfidenceEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeTransactionConfidenceListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeWalletChangeEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeWalletCoinsReceivedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeWalletCoinsSentEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/jni/NativeWalletReorganizeEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/kits/WalletAppKit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/kits/WalletAppKit$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/kits/WalletAppKit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/AbstractTimeoutHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/AbstractTimeoutHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/BlockingClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/BlockingClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/BlockingClientManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/ClientConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/ConnectionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/FilterMerger$Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/FilterMerger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/MessageWriteTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioClient$Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioClientManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioClientManager$PendingConnect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioClientManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/NioServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/ProtobufConnection$Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/ProtobufConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/StreamConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/StreamConnectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/DnsDiscovery$DnsSeedDiscovery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/DnsDiscovery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/HttpDiscovery$Details.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/HttpDiscovery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/MultiplexingDiscovery$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/MultiplexingDiscovery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/PeerDiscovery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/PeerDiscoveryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/net/discovery/SeedPeers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/params/AbstractBitcoinNetParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/params/MainNetParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/params/Networks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/params/RegTestParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/params/TestNet3Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/params/UnitTestParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannel$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannelOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannels$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannels$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState$StoredClientPaymentChannelsOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ClientState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/IPaymentChannelClient$ClientChannelProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/IPaymentChannelClient$ClientConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/IPaymentChannelClient$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/IPaymentChannelClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClient$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClient$DefaultClientChannelProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClient$InitStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClient$VersionSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientConnection$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientConnection$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientState$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientState$IncrementedPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientState$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelClientState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelCloseException$CloseReason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelCloseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$DefaultServerChannelProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$InitStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$ServerChannelProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer$ServerConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerListener$HandlerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerListener$ServerHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerListener$ServerHandler$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerListener$ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerState$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelServerState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelV1ClientState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelV1ServerState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelV1ServerState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelV2ClientState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelV2ServerState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentChannelV2ServerState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/PaymentIncrementAck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerConnectionEventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannel$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannelOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannels$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannels$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState$StoredServerPaymentChannelsOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ServerState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StateMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StoredClientChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StoredPaymentChannelClientStates$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StoredPaymentChannelClientStates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StoredPaymentChannelServerStates$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StoredPaymentChannelServerStates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/StoredServerChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/channels/ValueOutOfRangeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocol$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocol$Ack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocol$Output.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocol$PkiVerificationData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$Expired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidNetwork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidOutputs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidPaymentRequestURL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidPaymentURL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidPkiData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidPkiType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$InvalidVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException$PkiVerificationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentProtocolException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentSession$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentSession$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/protocols/payments/PaymentSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/Script$ScriptType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/Script$VerifyFlag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/Script.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/ScriptBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/ScriptChunk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/ScriptError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/ScriptException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/ScriptOpCodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/script/ScriptPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/CustomTransactionSigner$SignatureAndKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/CustomTransactionSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/LocalTransactionSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/MissingSigResolutionSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/TransactionSigner$MissingSignatureException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/TransactionSigner$ProposedTransaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/signers/TransactionSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/BlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/BlockStoreException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/ChainFileLockedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/DatabaseFullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/FullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/H2FullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/LevelDBBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/LevelDBFullPrunedBlockStore$BloomFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/LevelDBFullPrunedBlockStore$KeyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/LevelDBFullPrunedBlockStore$LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/LevelDBFullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/MemoryBlockStore$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/MemoryBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/MemoryFullPrunedBlockStore$StoredBlockAndWasUndoableFlag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/MemoryFullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/MySQLFullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/PostgresFullPrunedBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/SPVBlockStore$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/SPVBlockStore$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/SPVBlockStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/StoredTransactionOutPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/TransactionalHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/store/TransactionalMultiKeyHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/uri/BitcoinURI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/uri/BitcoinURIParseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/uri/OptionalFieldValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/uri/RequiredFieldValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BaseTaggableObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BlockFileLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BriefLogFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcAutoFormat$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcAutoFormat$Style$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcAutoFormat$Style$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcAutoFormat$Style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcAutoFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFixedFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFormat$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFormat$Builder$Variant$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFormat$Builder$Variant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFormat$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFormat$ScaleMatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/BtcFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/ContextPropagatingThreadFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/ContextPropagatingThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/DaemonThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/ExchangeRate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/ExponentialBackoff$Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/ExponentialBackoff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/Fiat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/ListenerRegistration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/MonetaryFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/TaggableObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/Threading$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/Threading$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/Threading$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/Threading$UserThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/Threading.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/utils/VersionTally.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/AllRandomKeysRotating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/AllowUnconfirmedCoinSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/BasicKeyChain$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/BasicKeyChain$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/BasicKeyChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/CoinSelection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/CoinSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DecryptingKeyBag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultCoinSelector$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultCoinSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultKeyChainFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultRiskAnalysis$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultRiskAnalysis$Analyzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultRiskAnalysis$RuleViolation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DefaultRiskAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DeterministicKeyChain$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DeterministicKeyChain$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DeterministicKeyChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DeterministicSeed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DeterministicUpgradeRequiredException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/DeterministicUpgradeRequiresPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/EncryptableKeyChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/FilteringCoinSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/KeyBag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/KeyChain$KeyPurpose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/KeyChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/KeyChainFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/KeyChainGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/KeyTimeCoinSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/MarriedKeyChain$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/MarriedKeyChain$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/MarriedKeyChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$DeterministicKey$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$DeterministicKey$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$DeterministicKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$DeterministicKeyOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$EncryptedData$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$EncryptedData$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$EncryptedData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$EncryptedDataOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ExchangeRate$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ExchangeRate$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ExchangeRate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ExchangeRateOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Extension$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Extension$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Extension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ExtensionOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Key$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Key$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Key$Type$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Key$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$KeyOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$PeerAddress$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$PeerAddress$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$PeerAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$PeerAddressOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Script$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Script$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Script.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScriptOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScriptWitness$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScriptWitness$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScriptWitness.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScriptWitnessOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScryptParameters$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScryptParameters$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScryptParameters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$ScryptParametersOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Tag$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Tag$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TagOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction$Pool$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction$Pool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction$Purpose$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction$Purpose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence$Source$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence$Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence$Type$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionConfidenceOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionInput$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionInput$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionInputOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionOutput$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionOutput$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$TransactionOutputOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Wallet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Wallet$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Wallet$EncryptionType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Wallet$EncryptionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$Wallet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos$WalletOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Protos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/RedeemData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/RiskAnalysis$Analyzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/RiskAnalysis$Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/RiskAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/SendRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/UnreadableWalletException$BadPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/UnreadableWalletException$FutureVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/UnreadableWalletException$WrongNetwork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/UnreadableWalletException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$BalanceFutureRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$BalanceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$CompletionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$CouldNotAdjustDownwards.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$DustySendRequested.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$ExceededMaxTransactionSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$FeeCalculation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$FreeStandingTransactionOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$MissingSigsMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$MultipleOpReturnRequested.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$SendResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet$TxOffsetPair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/Wallet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletExtension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletFiles$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletFiles$Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletProtobufSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletProtobufSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletProtobufSerializer$WalletFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletProtobufSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletTransaction$Pool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/WalletTransaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/AbstractKeyChainEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/KeyChainEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/ScriptsChangeEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/WalletChangeEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/WalletCoinsReceivedEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/WalletCoinsSentEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/IPCcoinj/wallet/listeners/WalletReorganizeEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/zencoinj/crypto/cacerts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/zencoinj/crypto/mnemonic/wordlist/english.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ipccoinj-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.AlertMessageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.Base58Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.Bech32Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.BitcoinSerializerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.BlockChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.BlockTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.BloomFilterTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.ChainSplitTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.CoinTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.DumpedPrivateKeyTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.ECKeyTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.H2FullPrunedBlockChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.LegacyAddressTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.LevelDBFullPrunedBlockChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.MemoryFullPrunedBlockChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.MessageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.MySQLFullPrunedBlockChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.ParseByteCacheTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.PeerAddressTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.PeerGroupTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.PeerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.PostgresFullPrunedBlockChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.PrefixedChecksummedBytesTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.SegwitAddressTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.SendHeadersMessageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.TransactionBroadcastTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.TransactionInputTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.TransactionOutputTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.TransactionWitnessTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.TxConfidenceTableTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.UTXOTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.UtilsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.VarIntTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.core.VersionMessageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.BIP32Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.BIP38PrivateKeyTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.ChildKeyDerivationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.HDUtilsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.KeyCrypterScryptTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.MnemonicCodeTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.MnemonicCodeVectorsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.crypto.X509UtilsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.net.discovery.SeedPeersTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.protocols.channels.ChannelConnectionTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.protocols.channels.PaymentChannelStateTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.protocols.payments.PaymentProtocolTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.protocols.payments.PaymentSessionTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.script.ScriptBuilderTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.script.ScriptChunkTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.script.ScriptPatternTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.store.LevelDBBlockStoreTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.store.SPVBlockStoreTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.store.WalletProtobufSerializerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.uri.BitcoinURITest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.BaseTaggableObjectTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.BtcFormatTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.ExchangeRateTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.ExponentialBackoffTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.FiatTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.MonetaryFormatTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.utils.VersionTallyTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.wallet.BasicKeyChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.wallet.DefaultCoinSelectorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.wallet.DefaultRiskAnalysisTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.wallet.DeterministicKeyChainTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.wallet.KeyChainGroupTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.zencoinj.wallet.WalletExtensionsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.AlertMessageTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.Base58Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.Bech32Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.BitcoinSerializerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.BlockChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.BlockTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.BloomFilterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.ChainSplitTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.CoinTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.DumpedPrivateKeyTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.ECKeyTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.H2FullPrunedBlockChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.LegacyAddressTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.LevelDBFullPrunedBlockChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.MemoryFullPrunedBlockChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.MessageTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.MySQLFullPrunedBlockChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.ParseByteCacheTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.PeerAddressTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.PeerGroupTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.PeerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.PostgresFullPrunedBlockChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.PrefixedChecksummedBytesTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.SegwitAddressTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.SendHeadersMessageTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.TransactionBroadcastTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.TransactionInputTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.TransactionOutputTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.TransactionWitnessTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.TxConfidenceTableTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.UTXOTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.UtilsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.VarIntTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.core.VersionMessageTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.BIP32Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.BIP38PrivateKeyTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.ChildKeyDerivationTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.HDUtilsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.KeyCrypterScryptTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.MnemonicCodeTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.MnemonicCodeVectorsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.crypto.X509UtilsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.net.discovery.SeedPeersTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.protocols.channels.ChannelConnectionTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.protocols.channels.PaymentChannelStateTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.protocols.payments.PaymentProtocolTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.protocols.payments.PaymentSessionTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.script.ScriptBuilderTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.script.ScriptChunkTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.script.ScriptPatternTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.store.LevelDBBlockStoreTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.store.SPVBlockStoreTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.store.WalletProtobufSerializerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.uri.BitcoinURITest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.BaseTaggableObjectTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.BtcFormatTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.ExchangeRateTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.ExponentialBackoffTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.FiatTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.MonetaryFormatTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.utils.VersionTallyTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.wallet.BasicKeyChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.wallet.DefaultCoinSelectorTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.wallet.DefaultRiskAnalysisTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.wallet.DeterministicKeyChainTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.wallet.KeyChainGroupTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.zencoinj.wallet.WalletExtensionsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-leveldb/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-leveldb/MANIFEST-000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zencoinj-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="199" column="35" lean-forward="true" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainNetParams.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/MainNetParams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarInt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/VarInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="46" />
+              <folding>
+                <element signature="e#2404#2405#0" expanded="true" />
+                <element signature="e#2440#2441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Coin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChildMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/ChildMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3450">
+              <caret line="259" column="53" selection-start-line="259" selection-start-column="53" selection-end-line="259" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LegacyAddress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/LegacyAddress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1980">
+              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkParameters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/NetworkParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3810">
+              <caret line="320" column="17" selection-start-line="320" selection-start-column="17" selection-end-line="320" selection-end-column="17" />
+              <folding>
+                <element signature="e#12737#12738#0" expanded="true" />
+                <element signature="e#12773#12774#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.bitcoin</find>
+      <find>PeerSeedProtos</find>
+      <find>PeerSeedData_descriptor</find>
+      <find>BIP65</find>
+      <find>227931</find>
+      <find>1479168000</find>
+      <find>nDefaultPort</find>
+      <find>bitcoinSerializeToStream</find>
+      <find>chainTxData</find>
+      <find>fromBase58</find>
+      <find>outputs</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>org.IPCcoin</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/FAB/fabcoinj-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/bcd/bitcoinj" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/bitcoinj-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/myapp/bitcoinj" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../bitcoinj" value="PREVIEW" />
+        <entry key="$USER_HOME$/projects/bitcoinj" value="PREVIEW" />
+        <entry key="$USER_HOME$/projects/bitcoinj-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/projects/btc/bitcoinj" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/org/zencoinj/core/LegacyAddressTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zencoinj/core/Base58.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zencoinj/params/RegTestParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zencoinj/params/TestNet3Params.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zencoinj/params/UnitTestParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zencoinj/params/MainNetParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zencoinj/core/LegacyAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/params/MainNetParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/core/NetworkParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/core/LegacyAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/core/AddressFormatException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/core/Base58.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/params/TestNet3Params.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/params/UnitTestParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoinj/params/RegTestParams.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bitcoin/crawler/PeerSeedProtos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/IPCcoin/crawler/PeerSeedProtos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/MainNetParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/NetworkParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/LegacyAddress.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/myapp/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/myapp/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="aaacoinj-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="aaacoinj-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-213" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="IPCcoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="IPCcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="IPCcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentchannel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="IPCcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="IPCcoinj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zencoinj-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipccoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="IPCcoinj" type="462c0819:PsiDirectoryNode" />
+              <item name="params" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.IPCcoin.crawler" />
+      <recent name="org.bitcoinj.core" />
+      <recent name="org.bitcoinj.params" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd935803-70d5-47b6-a5cb-870acd745b35" name="Default" comment="" />
+      <created>1537179037061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537179037061</updated>
+      <workItem from="1537179042743" duration="4820000" />
+      <workItem from="1537238697276" duration="14697000" />
+      <workItem from="1537438263500" duration="4514000" />
+      <workItem from="1537842838965" duration="2204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26235000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-213" y="-1080" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.32935324" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.21831736" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.40121213" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32935324" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19329074" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32935324" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/NetworkParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="140" column="28" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
+          <folding>
+            <element signature="e#12737#12738#0" expanded="true" />
+            <element signature="e#12773#12774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoin/paymentchannel/Protos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoin/protocols/payments/Protos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#20897#21249#0" expanded="true" />
+            <element signature="e#21248#21249#0" expanded="true" />
+            <element signature="e#79111#79487#0" expanded="true" />
+            <element signature="e#79486#79487#0" expanded="true" />
+            <element signature="e#113748#114124#0" expanded="true" />
+            <element signature="e#114123#114124#0" expanded="true" />
+            <element signature="e#134760#135142#0" expanded="true" />
+            <element signature="e#135141#135142#0" expanded="true" />
+            <element signature="e#181350#181705#0" expanded="true" />
+            <element signature="e#181704#181705#0" expanded="true" />
+            <element signature="e#210568#210932#0" expanded="true" />
+            <element signature="e#210931#210932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractBlockChainListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractPeerDataEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/BlocksDownloadedEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeKeyChainEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18060">
+          <caret line="1204" column="18" selection-start-line="1204" selection-start-column="12" selection-end-line="1204" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/zencoinj/core/LegacyAddressTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/params/RegTestParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/params/TestNet3Params.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/params/UnitTestParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/zencoinj/core/PrefixedChecksummedBytesTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/core/Base58.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/params/MainNetParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/core/NetworkParameters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/core/LegacyAddress.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/core/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zencoinj/core/Transaction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/core/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/core/AddressFormatException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/core/Base58.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/params/TestNet3Params.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/params/UnitTestParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/params/RegTestParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/params/MainNetParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/core/LegacyAddress.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/core/NetworkParameters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoin/protocols/payments/Protos.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoin/crawler/PeerSeedProtos.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoin/crawler/PeerSeedProtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+          <folding>
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#4546#4547#0" expanded="true" />
+            <element signature="e#4608#4609#0" expanded="true" />
+            <element signature="e#5684#5685#0" expanded="true" />
+            <element signature="e#5746#5747#0" expanded="true" />
+            <element signature="e#5835#5836#0" expanded="true" />
+            <element signature="e#5861#5862#0" expanded="true" />
+            <element signature="e#6045#6046#0" expanded="true" />
+            <element signature="e#6107#6108#0" expanded="true" />
+            <element signature="e#6204#6205#0" expanded="true" />
+            <element signature="e#6234#6235#0" expanded="true" />
+            <element signature="e#12773#12774#0" expanded="true" />
+            <element signature="e#12822#12823#0" expanded="true" />
+            <element signature="e#14358#14359#0" expanded="true" />
+            <element signature="e#14409#14410#0" expanded="true" />
+            <element signature="e#16534#16535#0" expanded="true" />
+            <element signature="e#16582#16583#0" expanded="true" />
+            <element signature="e#19609#19610#0" expanded="true" />
+            <element signature="e#19675#19676#0" expanded="true" />
+            <element signature="e#21703#21704#0" expanded="true" />
+            <element signature="e#21769#21770#0" expanded="true" />
+            <element signature="e#21866#21867#0" expanded="true" />
+            <element signature="e#21896#21897#0" expanded="true" />
+            <element signature="e#22474#22475#0" expanded="true" />
+            <element signature="e#22540#22541#0" expanded="true" />
+            <element signature="e#22645#22646#0" expanded="true" />
+            <element signature="e#22679#22680#0" expanded="true" />
+            <element signature="e#23947#23948#0" expanded="true" />
+            <element signature="e#23984#23985#0" expanded="true" />
+            <element signature="e#24081#24451#0" expanded="true" />
+            <element signature="e#24450#24451#0" expanded="true" />
+            <element signature="e#24522#24523#0" expanded="true" />
+            <element signature="e#24549#24550#0" expanded="true" />
+            <element signature="e#24637#24638#0" expanded="true" />
+            <element signature="e#24664#24665#0" expanded="true" />
+            <element signature="e#24754#24755#0" expanded="true" />
+            <element signature="e#24791#24792#0" expanded="true" />
+            <element signature="e#26849#26850#0" expanded="true" />
+            <element signature="e#26877#26878#0" expanded="true" />
+            <element signature="e#27091#27092#0" expanded="true" />
+            <element signature="e#27130#27131#0" expanded="true" />
+            <element signature="e#30172#30173#0" expanded="true" />
+            <element signature="e#30198#30199#0" expanded="true" />
+            <element signature="e#30414#30415#0" expanded="true" />
+            <element signature="e#30440#30441#0" expanded="true" />
+            <element signature="e#30561#30562#0" expanded="true" />
+            <element signature="e#30594#30595#0" expanded="true" />
+            <element signature="e#30763#30764#0" expanded="true" />
+            <element signature="e#30800#30801#0" expanded="true" />
+            <element signature="e#31288#31289#0" expanded="true" />
+            <element signature="e#31350#31351#0" expanded="true" />
+            <element signature="e#31516#31517#0" expanded="true" />
+            <element signature="e#31547#31548#0" expanded="true" />
+            <element signature="e#31723#31724#0" expanded="true" />
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#39165#39166#0" expanded="true" />
+            <element signature="e#39214#39215#0" expanded="true" />
+            <element signature="e#40723#40724#0" expanded="true" />
+            <element signature="e#40774#40775#0" expanded="true" />
+            <element signature="e#43217#43218#0" expanded="true" />
+            <element signature="e#43265#43266#0" expanded="true" />
+            <element signature="e#54763#54764#0" expanded="true" />
+            <element signature="e#54826#54827#0" expanded="true" />
+            <element signature="e#55827#55828#0" expanded="true" />
+            <element signature="e#55893#55894#0" expanded="true" />
+            <element signature="e#56075#56076#0" expanded="true" />
+            <element signature="e#56110#56111#0" expanded="true" />
+            <element signature="e#56860#56861#0" expanded="true" />
+            <element signature="e#56926#56927#0" expanded="true" />
+            <element signature="e#59504#59505#0" expanded="true" />
+            <element signature="e#59541#59542#0" expanded="true" />
+            <element signature="e#59635#59996#0" expanded="true" />
+            <element signature="e#59995#59996#0" expanded="true" />
+            <element signature="e#60064#60065#0" expanded="true" />
+            <element signature="e#60091#60092#0" expanded="true" />
+            <element signature="e#60176#60177#0" expanded="true" />
+            <element signature="e#60203#60204#0" expanded="true" />
+            <element signature="e#60290#60291#0" expanded="true" />
+            <element signature="e#60327#60328#0" expanded="true" />
+            <element signature="e#61599#61600#0" expanded="true" />
+            <element signature="e#61627#61628#0" expanded="true" />
+            <element signature="e#61926#61927#0" expanded="true" />
+            <element signature="e#61965#61966#0" expanded="true" />
+            <element signature="e#64456#64457#0" expanded="true" />
+            <element signature="e#64518#64519#0" expanded="true" />
+            <element signature="e#64644#64645#0" expanded="true" />
+            <element signature="e#64675#64676#0" expanded="true" />
+            <element signature="e#64889#64890#0" expanded="true" />
+            <element signature="e#64951#64952#0" expanded="true" />
+            <element signature="e#65076#65077#0" expanded="true" />
+            <element signature="e#65107#65108#0" expanded="true" />
+            <element signature="e#65309#65310#0" expanded="true" />
+            <element signature="e#65371#65372#0" expanded="true" />
+            <element signature="e#65490#65491#0" expanded="true" />
+            <element signature="e#65518#65519#0" expanded="true" />
+            <element signature="e#72123#72124#0" expanded="true" />
+            <element signature="e#72172#72173#0" expanded="true" />
+            <element signature="e#73735#73736#0" expanded="true" />
+            <element signature="e#73786#73787#0" expanded="true" />
+            <element signature="e#76048#76049#0" expanded="true" />
+            <element signature="e#76096#76097#0" expanded="true" />
+            <element signature="e#79156#79157#0" expanded="true" />
+            <element signature="e#79222#79223#0" expanded="true" />
+            <element signature="e#79356#79357#0" expanded="true" />
+            <element signature="e#79391#79392#0" expanded="true" />
+            <element signature="e#80192#80193#0" expanded="true" />
+            <element signature="e#80258#80259#0" expanded="true" />
+            <element signature="e#80391#80392#0" expanded="true" />
+            <element signature="e#80426#80427#0" expanded="true" />
+            <element signature="e#81216#81217#0" expanded="true" />
+            <element signature="e#81282#81283#0" expanded="true" />
+            <element signature="e#81409#81410#0" expanded="true" />
+            <element signature="e#81441#81442#0" expanded="true" />
+            <element signature="e#82833#82834#0" expanded="true" />
+            <element signature="e#82870#82871#0" expanded="true" />
+            <element signature="e#82970#83349#0" expanded="true" />
+            <element signature="e#83348#83349#0" expanded="true" />
+            <element signature="e#83423#83424#0" expanded="true" />
+            <element signature="e#83450#83451#0" expanded="true" />
+            <element signature="e#83541#83542#0" expanded="true" />
+            <element signature="e#83568#83569#0" expanded="true" />
+            <element signature="e#83661#83662#0" expanded="true" />
+            <element signature="e#83698#83699#0" expanded="true" />
+            <element signature="e#84668#84669#0" expanded="true" />
+            <element signature="e#84695#84696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoin/paymentchannel/Protos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bitcoinj/core/Context.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoin/protocols/payments/Protos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#20897#21249#0" expanded="true" />
+            <element signature="e#21248#21249#0" expanded="true" />
+            <element signature="e#79111#79487#0" expanded="true" />
+            <element signature="e#79486#79487#0" expanded="true" />
+            <element signature="e#113748#114124#0" expanded="true" />
+            <element signature="e#114123#114124#0" expanded="true" />
+            <element signature="e#134760#135142#0" expanded="true" />
+            <element signature="e#135141#135142#0" expanded="true" />
+            <element signature="e#181350#181705#0" expanded="true" />
+            <element signature="e#181704#181705#0" expanded="true" />
+            <element signature="e#210568#210932#0" expanded="true" />
+            <element signature="e#210931#210932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractBlockChainListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/AbstractPeerDataEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/listeners/BlocksDownloadedEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/jni/NativeKeyChainEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/NetworkParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="320" column="17" selection-start-line="320" selection-start-column="17" selection-end-line="320" selection-end-column="17" />
+          <folding>
+            <element signature="e#12737#12738#0" expanded="true" />
+            <element signature="e#12773#12774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/LegacyAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/ChildMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/VarInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="46" />
+          <folding>
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="259" column="53" selection-start-line="259" selection-start-column="53" selection-end-line="259" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/core/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="199" column="35" lean-forward="true" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/IPCcoinj/params/MainNetParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

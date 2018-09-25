@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="42" failures="0" name="org.zencoinj.core.PeerGroupTest" time="4.515" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/anguorui/myjar/zencoinj"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/anguorui/myjar/zencoinj"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9w/nl_9s9j91_jfxc0vmsz24vb40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/anguorui/myapp/apache-maven-3.5.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anguorui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/anguorui/myapp/apache-maven-3.5.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="library.jansi.path" value="/Users/anguorui/myapp/apache-maven-3.5.3/lib/jansi-native"/>
+    <property name="user.home" value="/Users/anguorui"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="anguorui"/>
+    <property name="java.class.path" value="/Users/anguorui/myapp/apache-maven-3.5.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="/Users/anguorui/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/anguorui/myapp/apache-maven-3.5.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="singleDownloadPeer1[0]" time="0.046"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="singleDownloadPeer2[0]" time="0.049"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="receiveTxBroadcastOnAddedWallet[0]" time="0.079"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="downloadPeerSelection[0]" time="0.038"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="preferLocalPeer[0]" time="0.027"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="waitForNumPeers1[0]" time="0.047"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="transactionConfidence[0]" time="0.048"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="peerTimeoutTest[0]" time="0.137"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="autoRescanOnKeyExhaustion[0]" time="0.089"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="pings[0]" time="0.242"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="receiveTxBroadcast[0]" time="0.047"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="testBloomResendOnNewKey[0]" time="0.042"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="peerDiscoveryPolling[0]" time="1.042"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="testBloomOnP2Pubkey[0]" time="0.05"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="peerPriority[0]" time="0.05">
+    <skipped message="disabled for now as this test is too flaky"/>
+    <system-err>18:25:52 224 PeerGroup$9.run: Stopping ...
+</system-err>
+  </testcase>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="waitForPeersOfVersion[0]" time="0.037"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="listener[0]" time="0.044"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="multiplePeerDiscovery[0]" time="0.032"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="testWalletCatchupTime[0]" time="0.057"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="waitForPeersWithServiceFlags[0]" time="0.039"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="noPings[0]" time="0.043"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="singleDownloadPeer1[1]" time="0.057"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="singleDownloadPeer2[1]" time="0.053"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="receiveTxBroadcastOnAddedWallet[1]" time="0.081"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="downloadPeerSelection[1]" time="0.04"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="preferLocalPeer[1]" time="0.027"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="waitForNumPeers1[1]" time="0.036"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="transactionConfidence[1]" time="0.052"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="peerTimeoutTest[1]" time="0.135"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="autoRescanOnKeyExhaustion[1]" time="0.076"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="pings[1]" time="0.236"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="receiveTxBroadcast[1]" time="0.045"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="testBloomResendOnNewKey[1]" time="0.051"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="peerDiscoveryPolling[1]" time="1.034"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="testBloomOnP2Pubkey[1]" time="0.036"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="peerPriority[1]" time="0.037">
+    <skipped message="disabled for now as this test is too flaky"/>
+  </testcase>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="waitForPeersOfVersion[1]" time="0.035"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="listener[1]" time="0.035"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="multiplePeerDiscovery[1]" time="0.032"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="testWalletCatchupTime[1]" time="0.06"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="waitForPeersWithServiceFlags[1]" time="0.041"/>
+  <testcase classname="org.zencoinj.core.PeerGroupTest" name="noPings[1]" time="0.031"/>
+</testsuite>
