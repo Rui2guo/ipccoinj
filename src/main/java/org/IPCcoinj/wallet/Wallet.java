@@ -3723,8 +3723,8 @@ public class Wallet extends BaseTaggableObject
      * @throws ExceededMaxTransactionSize if the resultant transaction is too big for Bitcoin to process.
      * @throws MultipleOpReturnRequested if there is more than one OP_RETURN output for the resultant transaction.
      */
-    public Transaction createSend(Address address, Coin value) throws InsufficientMoneyException {
-        SendRequest req = SendRequest.to(address, value);
+    public Transaction createSend(Address address, Coin value, int type) throws InsufficientMoneyException {
+        SendRequest req = SendRequest.to(address, value, type);
         if (params.getId().equals(NetworkParameters.ID_UNITTESTNET))
             req.shuffleOutputs = false;
         completeTx(req);
@@ -3782,8 +3782,8 @@ public class Wallet extends BaseTaggableObject
      * @throws ExceededMaxTransactionSize if the resultant transaction is too big for Bitcoin to process.
      * @throws MultipleOpReturnRequested if there is more than one OP_RETURN output for the resultant transaction.
      */
-    public SendResult sendCoins(TransactionBroadcaster broadcaster, Address to, Coin value) throws InsufficientMoneyException {
-        SendRequest request = SendRequest.to(to, value);
+    public SendResult sendCoins(TransactionBroadcaster broadcaster, Address to, Coin value, int type) throws InsufficientMoneyException {
+        SendRequest request = SendRequest.to(to, value,type);
         return sendCoins(broadcaster, request);
     }
 
@@ -4167,6 +4167,7 @@ public class Wallet extends BaseTaggableObject
      */
     protected LinkedList<TransactionOutput> calculateAllSpendCandidatesFromUTXOProvider(boolean excludeImmatureCoinbases) {
         checkState(lock.isHeldByCurrentThread());
+        int type = 0 ;
         UTXOProvider utxoProvider = checkNotNull(vUTXOProvider, "No UTXO provider has been set");
         LinkedList<TransactionOutput> candidates = Lists.newLinkedList();
         try {
@@ -4176,7 +4177,7 @@ public class Wallet extends BaseTaggableObject
                 int depth = chainHeight - output.getHeight() + 1; // the current depth of the output (1 = same as head).
                 // Do not try and spend coinbases that were mined too recently, the protocol forbids it.
                 if (!excludeImmatureCoinbases || !coinbase || depth >= params.getSpendableCoinbaseDepth()) {
-                    candidates.add(new FreeStandingTransactionOutput(params, output, chainHeight));
+                    candidates.add(new FreeStandingTransactionOutput(params, output, chainHeight, type));
                 }
             }
         } catch (UTXOProviderException e) {
@@ -4299,8 +4300,8 @@ public class Wallet extends BaseTaggableObject
          * @param params The network parameters.
          * @param output The stored output (free standing).
          */
-        public FreeStandingTransactionOutput(NetworkParameters params, UTXO output, int chainHeight) {
-            super(params, null, output.getValue(), output.getScript().getProgram());
+        public FreeStandingTransactionOutput(NetworkParameters params, UTXO output, int chainHeight,int type) {
+            super(params, null, output.getValue(), output.getScript().getProgram(), type);
             this.output = output;
             this.chainHeight = chainHeight;
         }
@@ -4799,6 +4800,7 @@ public class Wallet extends BaseTaggableObject
         checkState(lock.isHeldByCurrentThread());
         FeeCalculation result;
         Coin fee = Coin.ZERO;
+        int type = 0;
         while (true) {
             result = new FeeCalculation();
             Transaction tx = new Transaction(params);
@@ -4846,7 +4848,7 @@ public class Wallet extends BaseTaggableObject
                 Address changeAddress = req.changeAddress;
                 if (changeAddress == null)
                     changeAddress = currentChangeAddress();
-                TransactionOutput changeOutput = new TransactionOutput(params, tx, change, changeAddress);
+                TransactionOutput changeOutput = new TransactionOutput(params, tx, change, changeAddress,type);
                 if (req.recipientsPayFees && changeOutput.isDust()) {
                     // We do not move dust-change to fees, because the sender would end up paying more than requested.
                     // This would be against the purpose of the all-inclusive feature.
@@ -5088,6 +5090,7 @@ public class Wallet extends BaseTaggableObject
     private List<Transaction> maybeRotateKeys(@Nullable KeyParameter aesKey, boolean sign) throws DeterministicUpgradeRequiresPassword {
         checkState(lock.isHeldByCurrentThread());
         checkState(keyChainGroupLock.isHeldByCurrentThread());
+        int type =0;
         List<Transaction> results = Lists.newLinkedList();
         // TODO: Handle chain replays here.
         final long keyRotationTimestamp = vKeyRotationTimestamp;
@@ -5123,14 +5126,14 @@ public class Wallet extends BaseTaggableObject
         // fully done, at least for now (we may still get more transactions later and this method will be reinvoked).
         Transaction tx;
         do {
-            tx = rekeyOneBatch(keyRotationTimestamp, aesKey, results, sign);
+            tx = rekeyOneBatch(keyRotationTimestamp, aesKey, results, sign, type);
             if (tx != null) results.add(tx);
         } while (tx != null && tx.getInputs().size() == KeyTimeCoinSelector.MAX_SIMULTANEOUS_INPUTS);
         return results;
     }
 
     @Nullable
-    private Transaction rekeyOneBatch(long timeSecs, @Nullable KeyParameter aesKey, List<Transaction> others, boolean sign) {
+    private Transaction rekeyOneBatch(long timeSecs, @Nullable KeyParameter aesKey, List<Transaction> others, boolean sign, int type) {
         lock.lock();
         try {
             // Build the transaction using some custom logic for our special needs. Last parameter to
@@ -5154,7 +5157,7 @@ public class Wallet extends BaseTaggableObject
                 rekeyTx.addInput(output);
             }
             // When not signing, don't waste addresses.
-            rekeyTx.addOutput(toMove.valueGathered, sign ? freshReceiveAddress() : currentReceiveAddress());
+            rekeyTx.addOutput(toMove.valueGathered, sign ? freshReceiveAddress() : currentReceiveAddress(),type);
             if (!adjustOutputDownwardsForFee(rekeyTx, toMove, Transaction.DEFAULT_TX_FEE, true)) {
                 log.error("Failed to adjust rekey tx for fees.");
                 return null;

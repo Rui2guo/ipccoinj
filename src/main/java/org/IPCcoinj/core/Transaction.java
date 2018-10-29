@@ -65,6 +65,8 @@ import java.math.BigInteger;
  * <p>Instances of this class are not safe for use by multiple threads.</p>
  */
 public class Transaction extends ChildMessage {
+
+    private int type = 0;
     /**
      * A comparator that can be used to sort transactions by their updateTime field. The ordering goes from most recent
      * into the past.
@@ -199,7 +201,7 @@ public class Transaction extends ChildMessage {
 
     public Transaction(NetworkParameters params) {
         super(params);
-        version = 1;
+        version = 2;
         inputs = new ArrayList<>();
         outputs = new ArrayList<>();
         // We don't initialize appearsIn deliberately as it's only useful for transactions stored in the wallet.
@@ -952,24 +954,24 @@ public class Transaction extends ChildMessage {
     /**
      * Creates an output based on the given address and value, adds it to this transaction, and returns the new output.
      */
-    public TransactionOutput addOutput(Coin value, Address address) {
-        return addOutput(new TransactionOutput(params, this, value, address));
+    public TransactionOutput addOutput(Coin value, Address address,  int type) {
+        return addOutput(new TransactionOutput(params, this, value, address,type));
     }
 
     /**
      * Creates an output that pays to the given pubkey directly (no address) with the given value, adds it to this
      * transaction, and returns the new output.
      */
-    public TransactionOutput addOutput(Coin value, ECKey pubkey) {
-        return addOutput(new TransactionOutput(params, this, value, pubkey));
+    public TransactionOutput addOutput(Coin value, ECKey pubkey, int type) {
+        return addOutput(new TransactionOutput(params, this, value, pubkey,type));
     }
 
     /**
      * Creates an output that pays to the given script. The address and key forms are specialisations of this method,
      * you won't normally need to use it unless you're doing unusual things.
      */
-    public TransactionOutput addOutput(Coin value, Script script) {
-        return addOutput(new TransactionOutput(params, this, value, script.getProgram()));
+    public TransactionOutput addOutput(Coin value, Script script, int type) {
+        return addOutput(new TransactionOutput(params, this, value, script.getProgram(),type));
     }
 
 
@@ -1150,13 +1152,13 @@ public class Transaction extends ChildMessage {
 
                     // Bitcoin Core's bug is that SignatureHash was supposed to return a hash and on this codepath it
                     // actually returns the constant "1" to indicate an error, which is never checked for. Oops.
-                    return Sha256Hash.wrap("0100000000000000000000000000000000000000000000000000000000000000");
+                    return Sha256Hash.wrap("0000000000000000000000000000000000000000000000000000000000000001");
                 }
                 // In SIGHASH_SINGLE the outputs after the matching input index are deleted, and the outputs before
                 // that position are "nulled out". Unintuitively, the value in a "null" transaction is set to -1.
                 tx.outputs = new ArrayList<>(tx.outputs.subList(0, inputIndex + 1));
                 for (int i = 0; i < inputIndex; i++)
-                    tx.outputs.set(i, new TransactionOutput(tx.params, tx, Coin.NEGATIVE_SATOSHI, new byte[] {}));
+                    tx.outputs.set(i, new TransactionOutput(tx.params, tx, Coin.NEGATIVE_SATOSHI, new byte[] {}, type ));
                 // The signature isn't broken by new versions of the transaction issued by other parties.
                 for (int i = 0; i < tx.inputs.size(); i++)
                     if (i != inputIndex)
@@ -1176,7 +1178,8 @@ public class Transaction extends ChildMessage {
             uint32ToByteStreamLE(0x000000ff & sigHashType, bos);
             // Note that this is NOT reversed to ensure it will be signed correctly. If it were to be printed out
             // however then we would expect that it is IS reversed.
-            Sha256Hash hash = Sha256Hash.twiceOf(bos.toByteArray());
+//            Sha256Hash hash = Sha256Hash.twiceOf(bos.toByteArray());
+            Sha256Hash hash = Sha256Hash.of(bos.toByteArray());
             bos.close();
 
             return hash;

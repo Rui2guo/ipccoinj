@@ -257,6 +257,42 @@ public class ScriptBuilder {
         ScriptBuilder builder = new ScriptBuilder();
         if (to instanceof LegacyAddress) {
             ScriptType scriptType = to.getOutputScriptType();
+
+            //IPC-OUTPUT_script固定格式
+            if (scriptType == ScriptType.P2PKH || scriptType == ScriptType.P2SH) {
+                // OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
+                builder.op(OP_DUP);
+                builder.op(OP_HASH160);
+                builder.data(to.getHash());
+                builder.op(OP_EQUALVERIFY);
+                builder.op(OP_CHECKSIG);
+            }
+//            else if (scriptType == ScriptType.P2SH) {
+//                // OP_HASH160 <scriptHash> OP_EQUAL
+//                builder.op(OP_HASH160);
+//                builder.data(to.getHash());
+//                builder.op(OP_EQUAL);
+//            }
+            else {
+                throw new IllegalStateException("Cannot handle " + scriptType);
+            }
+        } else if (to instanceof SegwitAddress) {
+            // OP_0 <pubKeyHash|scriptHash>
+            SegwitAddress toSegwit = (SegwitAddress) to;
+            builder.smallNum(toSegwit.getWitnessVersion());
+            builder.data(toSegwit.getWitnessProgram());
+        } else {
+            throw new IllegalStateException("Cannot handle " + to);
+        }
+        return builder.build();
+    }
+
+
+
+    public static Script createSingleScript(Address to) {
+        ScriptBuilder builder = new ScriptBuilder();
+        if (to instanceof LegacyAddress) {
+            ScriptType scriptType = to.getOutputScriptType();
             if (scriptType == ScriptType.P2PKH) {
                 // OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
                 builder.op(OP_DUP);
@@ -283,9 +319,16 @@ public class ScriptBuilder {
         return builder.build();
     }
 
+
+
     /** Creates a scriptPubKey that encodes payment to the given raw public key. */
     public static Script createOutputScript(ECKey key) {
         return new ScriptBuilder().data(key.getPubKey()).op(OP_CHECKSIG).build();
+    }
+
+    /** Creates a scriptPubKey that encodes payment to the given raw public key. */
+    public static Script createIPCScript(ECKey key) {
+        return new ScriptBuilder().data(key.getPubKey()).op(OP_0).build();
     }
 
     /**

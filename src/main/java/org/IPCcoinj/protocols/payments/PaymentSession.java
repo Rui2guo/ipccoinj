@@ -74,7 +74,7 @@ public class PaymentSession {
     private Protos.PaymentRequest paymentRequest;
     private Protos.PaymentDetails paymentDetails;
     private Coin totalValue = Coin.ZERO;
-
+    private int type = 0;
     /**
      * Stores the calculated PKI verification data, or null if none is available.
      * Only valid after the session is created with the verifyPki parameter set to true.
@@ -300,7 +300,7 @@ public class PaymentSession {
     public SendRequest getSendRequest() {
         Transaction tx = new Transaction(params);
         for (Protos.Output output : paymentDetails.getOutputsList())
-            tx.addOutput(new TransactionOutput(params, tx, Coin.valueOf(output.getAmount()), output.getScript().toByteArray()));
+            tx.addOutput(new TransactionOutput(params, tx, Coin.valueOf(output.getAmount()), output.getScript().toByteArray(), type));
         return SendRequest.forTx(tx).fromPaymentDetails(paymentDetails);
     }
 

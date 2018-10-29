@@ -133,7 +133,7 @@ public class Sha256Hash implements Serializable, Comparable<Sha256Hash> {
      * The file contents are read fully into memory, so this method should only be used with small files.
      *
      * @param file the file on which the hash value is calculated
-     * @return a new instance containing the calculated (one-time) hash
+     * @return a new instance containing the calculated (one-time) hash0x6a09e667ul
      * @throws IOException if an error occurs while reading the file
      */
     public static Sha256Hash of(File file) throws IOException {

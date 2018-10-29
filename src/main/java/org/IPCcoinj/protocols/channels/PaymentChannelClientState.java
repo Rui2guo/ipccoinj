@@ -239,13 +239,13 @@ public abstract class PaymentChannelClientState {
      */
     public abstract Transaction getContract();
 
-    private synchronized Transaction makeUnsignedChannelContract(Coin valueToMe) throws ValueOutOfRangeException {
+    private synchronized Transaction makeUnsignedChannelContract(Coin valueToMe, int type) throws ValueOutOfRangeException {
         Transaction tx = new Transaction(wallet.getParams());
         tx.addInput(getContractInternal().getOutput(0));
         // Our output always comes first.
         // TODO: We should drop myKey in favor of output key + multisig key separation
         // (as its always obvious who the client is based on T2 output order)
-        tx.addOutput(valueToMe, LegacyAddress.fromKey(wallet.getParams(), myKey));
+        tx.addOutput(valueToMe, LegacyAddress.fromKey(wallet.getParams(), myKey), type);
         return tx;
     }
 
@@ -285,6 +285,7 @@ public abstract class PaymentChannelClientState {
     public synchronized IncrementedPayment incrementPaymentBy(Coin size, @Nullable KeyParameter userKey)
             throws ValueOutOfRangeException {
         stateMachine.checkState(State.READY);
+        int type =0;
         checkNotExpired();
         checkNotNull(size);  // Validity of size will be checked by makeUnsignedChannelContract.
         if (size.signum() < 0)
@@ -297,7 +298,7 @@ public abstract class PaymentChannelClientState {
         }
         if (newValueToMe.signum() < 0)
             throw new ValueOutOfRangeException("Channel has too little money to pay " + size + " satoshis");
-        Transaction tx = makeUnsignedChannelContract(newValueToMe);
+        Transaction tx = makeUnsignedChannelContract(newValueToMe,type);
         log.info("Signing new payment tx {}", tx);
         Transaction.SigHash mode;
         // If we spent all the money we put into this channel, we (by definition) don't care what the outputs are, so

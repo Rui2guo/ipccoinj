@@ -115,6 +115,8 @@ public abstract class PaymentChannelServerState {
     // The contract and the output script from it
     protected Transaction contract = null;
 
+    protected  int type =0;
+
     PaymentChannelServerState(StoredServerChannel storedServerChannel, Wallet wallet, TransactionBroadcaster broadcaster) throws VerificationException {
         synchronized (storedServerChannel) {
             this.stateMachine = new StateMachine<>(State.UNINITIALISED, getStateTransitions());
@@ -217,10 +219,10 @@ public abstract class PaymentChannelServerState {
     }
 
     // Create a payment transaction with valueToMe going back to us
-    protected synchronized SendRequest makeUnsignedChannelContract(Coin valueToMe) {
+    protected synchronized SendRequest makeUnsignedChannelContract(Coin valueToMe, int type) {
         Transaction tx = new Transaction(wallet.getParams());
         if (!getTotalValue().subtract(valueToMe).equals(Coin.ZERO)) {
-            tx.addOutput(getTotalValue().subtract(valueToMe), LegacyAddress.fromKey(wallet.getParams(), getClientKey()));
+            tx.addOutput(getTotalValue().subtract(valueToMe), LegacyAddress.fromKey(wallet.getParams(), getClientKey()), type);
         }
         tx.addInput(contract.getOutput(0));
         return SendRequest.forTx(tx);
@@ -250,7 +252,7 @@ public abstract class PaymentChannelServerState {
         if (newValueToMe.compareTo(bestValueToMe) < 0)
             throw new ValueOutOfRangeException("Attempt to roll back payment on the channel.");
 
-        SendRequest req = makeUnsignedChannelContract(newValueToMe);
+        SendRequest req = makeUnsignedChannelContract(newValueToMe,type);
 
         if (!fullyUsedUp && refundSize.isLessThan(req.tx.getOutput(0).getMinNonDustValue()))
             throw new ValueOutOfRangeException("Attempt to refund negative value or value too small to be accepted by the network");

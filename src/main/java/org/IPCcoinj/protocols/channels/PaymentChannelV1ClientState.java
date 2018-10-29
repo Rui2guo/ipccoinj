@@ -130,13 +130,14 @@ public class PaymentChannelV1ClientState extends PaymentChannelClientState {
     public synchronized void initiate(@Nullable KeyParameter userKey, ClientChannelProperties clientChannelProperties) throws ValueOutOfRangeException, InsufficientMoneyException {
         final NetworkParameters params = wallet.getParams();
         Transaction template = new Transaction(params);
+        int type =0;
         // We always place the client key before the server key because, if either side wants some privacy, they can
         // use a fresh key for the the multisig contract and nowhere else
         List<ECKey> keys = Lists.newArrayList(myKey, serverKey);
         // There is also probably a change output, but we don't bother shuffling them as it's obvious from the
         // format which one is the change. If we start obfuscating the change output better in future this may
         // be worth revisiting.
-        TransactionOutput multisigOutput = template.addOutput(totalValue, ScriptBuilder.createMultiSigOutputScript(2, keys));
+        TransactionOutput multisigOutput = template.addOutput(totalValue, ScriptBuilder.createMultiSigOutputScript(2, keys),type);
         if (multisigOutput.isDust())
             throw new ValueOutOfRangeException("totalValue too small to use");
         SendRequest req = SendRequest.forTx(template);
@@ -163,10 +164,10 @@ public class PaymentChannelV1ClientState extends PaymentChannelClientState {
             final Coin valueAfterFee = totalValue.subtract(Transaction.REFERENCE_DEFAULT_MIN_TX_FEE);
             if (Transaction.MIN_NONDUST_OUTPUT.compareTo(valueAfterFee) > 0)
                 throw new ValueOutOfRangeException("totalValue too small to use");
-            refundTx.addOutput(valueAfterFee, LegacyAddress.fromKey(params, myKey));
+            refundTx.addOutput(valueAfterFee, LegacyAddress.fromKey(params, myKey),type);
             refundFees = multisigFee.add(Transaction.REFERENCE_DEFAULT_MIN_TX_FEE);
         } else {
-            refundTx.addOutput(totalValue, LegacyAddress.fromKey(params, myKey));
+            refundTx.addOutput(totalValue, LegacyAddress.fromKey(params, myKey),type);
             refundFees = multisigFee;
         }
         refundTx.getConfidence().setSource(TransactionConfidence.Source.SELF);

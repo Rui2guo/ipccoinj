@@ -24,6 +24,7 @@ import org.slf4j.*;
 
 import javax.annotation.*;
 import java.io.*;
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.List;
 
@@ -44,6 +45,8 @@ public class TransactionOutput extends ChildMessage {
     // A transaction output has a script used for authenticating that the redeemer is allowed to spend
     // this output.
     private byte[] scriptBytes;
+
+    private int type = 0;
 
     // The script bytes are parsed and turned into a Script on demand.
     private Script scriptPubKey;
@@ -84,22 +87,22 @@ public class TransactionOutput extends ChildMessage {
     /**
      * Creates an output that sends 'value' to the given address (public key hash). The amount should be created with
      * something like {@link Coin#valueOf(int, int)}. Typically you would use
-     * {@link Transaction#addOutput(Coin, Address)} instead of creating a TransactionOutput directly.
+     * {@link Transaction#(Coin, Address)} instead of creating a TransactionOutput directly.
      */
-    public TransactionOutput(NetworkParameters params, @Nullable Transaction parent, Coin value, Address to) {
-        this(params, parent, value, ScriptBuilder.createOutputScript(to).getProgram());
+    public TransactionOutput(NetworkParameters params, @Nullable Transaction parent, Coin value, Address to, int type) {
+        this(params, parent, value, ScriptBuilder.createOutputScript(to).getProgram(),type);
     }
 
     /**
      * Creates an output that sends 'value' to the given public key using a simple CHECKSIG script (no addresses). The
      * amount should be created with something like {@link Coin#valueOf(int, int)}. Typically you would use
-     * {@link Transaction#addOutput(Coin, ECKey)} instead of creating an output directly.
+     * {@link Transaction#(Coin, ECKey)} instead of creating an output directly.
      */
-    public TransactionOutput(NetworkParameters params, @Nullable Transaction parent, Coin value, ECKey to) {
-        this(params, parent, value, ScriptBuilder.createOutputScript(to).getProgram());
+    public TransactionOutput(NetworkParameters params, @Nullable Transaction parent, Coin value, ECKey to,int type) {
+        this(params, parent, value, ScriptBuilder.createOutputScript(to).getProgram(),type);
     }
 
-    public TransactionOutput(NetworkParameters params, @Nullable Transaction parent, Coin value, byte[] scriptBytes) {
+    public TransactionOutput(NetworkParameters params, @Nullable Transaction parent, Coin value, byte[] scriptBytes,int type) {
         super(params);
         // Negative values obviously make no sense, except for -1 which is used as a sentinel value when calculating
         // SIGHASH_SINGLE signatures, so unfortunately we have to allow that here.
@@ -110,6 +113,7 @@ public class TransactionOutput extends ChildMessage {
         setParent(parent);
         availableForSpending = true;
         length = 8 + VarInt.sizeOf(scriptBytes.length) + scriptBytes.length;
+        this.type = type;
     }
 
     public Script getScriptPubKey() throws ScriptException {
@@ -139,9 +143,11 @@ public class TransactionOutput extends ChildMessage {
     @Override
     protected void parse() throws ProtocolException {
         value = readInt64();
+//        type= readType64();
         scriptLen = (int) readVarInt();
         length = cursor - offset + scriptLen;
         scriptBytes = readBytes(scriptLen);
+        type = 0;
     }
 
     @Override
@@ -151,6 +157,7 @@ public class TransactionOutput extends ChildMessage {
         // TODO: Move script serialization into the Script class, where it belongs.
         stream.write(new VarInt(scriptBytes.length).encode());
         stream.write(scriptBytes);
+        Utils.uint8ToByteStreamLE(type,stream);
     }
 
     /**
@@ -391,7 +398,7 @@ public class TransactionOutput extends ChildMessage {
 
     /** Returns a copy of the output detached from its containing transaction, if need be. */
     public TransactionOutput duplicateDetached() {
-        return new TransactionOutput(params, null, Coin.valueOf(value), Arrays.copyOf(scriptBytes, scriptBytes.length));
+        return new TransactionOutput(params, null, Coin.valueOf(value), Arrays.copyOf(scriptBytes, scriptBytes.length),type);
     }
 
     @Override
@@ -400,11 +407,11 @@ public class TransactionOutput extends ChildMessage {
         if (o == null || getClass() != o.getClass()) return false;
         TransactionOutput other = (TransactionOutput) o;
         return value == other.value && (parent == null || (parent == other.parent && getIndex() == other.getIndex()))
-                && Arrays.equals(scriptBytes, other.scriptBytes);
+                && Arrays.equals(scriptBytes, other.scriptBytes) && type == other.type;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(value, parent, Arrays.hashCode(scriptBytes));
+        return Objects.hashCode(value, parent, Arrays.hashCode(scriptBytes),type);
     }
 }

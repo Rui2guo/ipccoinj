@@ -215,7 +215,7 @@ public class PaymentChannelV1ServerState extends PaymentChannelServerState {
         }
         Transaction tx = null;
         try {
-            SendRequest req = makeUnsignedChannelContract(bestValueToMe);
+            SendRequest req = makeUnsignedChannelContract(bestValueToMe, type);
             tx = req.tx;
             // Provide a throwaway signature so that completeTx won't complain out about unsigned inputs it doesn't
             // know how to sign. Note that this signature does actually have to be valid, so we can't use a dummy

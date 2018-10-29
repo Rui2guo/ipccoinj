@@ -309,6 +309,16 @@ public abstract class Message {
         }
     }
 
+    protected int readType64() throws ProtocolException {
+        try {
+            int u = Utils.readType64(payload, cursor);
+            cursor += 2;
+            return u;
+        } catch (ArrayIndexOutOfBoundsException e) {
+            throw new ProtocolException(e);
+        }
+    }
+
     protected BigInteger readUint64() throws ProtocolException {
         // Java does not have an unsigned 64 bit type. So scrape it off the wire then flip.
         return new BigInteger(Utils.reverseBytes(readBytes(8)));

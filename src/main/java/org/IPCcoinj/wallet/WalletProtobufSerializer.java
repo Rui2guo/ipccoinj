@@ -626,6 +626,7 @@ public class WalletProtobufSerializer {
     private void readTransaction(Protos.Transaction txProto, NetworkParameters params) throws UnreadableWalletException {
         Transaction tx = new Transaction(params);
 
+        int type = 0;
         tx.setVersion(txProto.getVersion());
 
         if (txProto.hasUpdatedAt()) {
@@ -635,7 +636,7 @@ public class WalletProtobufSerializer {
         for (Protos.TransactionOutput outputProto : txProto.getTransactionOutputList()) {
             Coin value = Coin.valueOf(outputProto.getValue());
             byte[] scriptBytes = outputProto.getScriptBytes().toByteArray();
-            TransactionOutput output = new TransactionOutput(params, tx, value, scriptBytes);
+            TransactionOutput output = new TransactionOutput(params, tx, value, scriptBytes,type);
             tx.addOutput(output);
         }
 

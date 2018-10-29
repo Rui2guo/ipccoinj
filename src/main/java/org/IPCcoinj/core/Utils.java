@@ -140,6 +140,12 @@ public class Utils {
         stream.write((int) (0xFF & (val >> 8)));
     }
 
+    /** Write 1 bytes to the output stream as unsigned 16-bit integer in little endian format. */
+    public static void uint8ToByteStreamLE(int val, OutputStream stream) throws IOException {
+        stream.write((int) (0xFF & val));
+    }
+
+
     /** Write 2 bytes to the output stream as unsigned 16-bit integer in big endian format. */
     public static void uint16ToByteStreamBE(int val, OutputStream stream) throws IOException {
         stream.write((int) (0xFF & (val >> 8)));
@@ -212,6 +218,19 @@ public class Utils {
                ((bytes[offset + 5] & 0xffl) << 40) |
                ((bytes[offset + 6] & 0xffl) << 48) |
                ((bytes[offset + 7] & 0xffl) << 56);
+    }
+
+
+    /** Parse 8 bytes from the byte array (starting at the offset) as signed 64-bit integer in little endian format. */
+    public static int readType64(byte[] bytes, int offset) {
+        return (bytes[offset] & 0xff) |
+                ((bytes[offset + 1] & 0xff) << 8) |
+                ((bytes[offset + 2] & 0xff) << 16) |
+                ((bytes[offset + 3] & 0xff) << 24) |
+                ((bytes[offset + 4] & 0xff) << 32) |
+                ((bytes[offset + 5] & 0xff) << 40) |
+                ((bytes[offset + 6] & 0xff) << 48) |
+                ((bytes[offset + 7] & 0xff) << 56);
     }
 
     /** Parse 4 bytes from the byte array (starting at the offset) as unsigned 32-bit integer in big endian format. */
